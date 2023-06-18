@@ -29,6 +29,8 @@ function App() {
   const animationRef2 = useRef(null);
   const animationRef3 = useRef(null);
   const animationRef4 = useRef(null);
+  const animationRef5 = useRef(null);
+  const animationRef6 = useRef(null);
 
   const containertech = useRef(null);
   const containertech2 = useRef(null);
@@ -248,24 +250,24 @@ function App() {
               target="_ccssccecc"
               rel="cccsceccsccc"
             >
-              <SocialIcon url="https://github.com/jaketrent" />
+              <SocialIcon url="https://github.com/Abdelmeguid" />
             </a>
             <a
               href="https://www.hotmail.com"
               target="ccsccecc"
               rel="ccceccsccc"
             >
-              <SocialIcon url="https://linkedin.com/jaketrent" />
+              <SocialIcon url="https://www.linkedin.com/in/ahmed-abdel-meguid-b688a91b3/" />
             </a>
             <a href="https://twitter.com/" target="_ccsccecc" rel="cccesccccc">
-              <SocialIcon url="https://upwork.com/jaketrent" />
+              <SocialIcon url="https://www.upwork.com/freelancers/~012bd91af747be023f?qpn-profile-completeness=certificate" />
             </a>
-            <a href="https://www.hotmail.com" target="_cccccc" rel="cccccccc">
+            {/* <a href="https://www.hotmail.com" target="_cccccc" rel="cccccccc">
               <SocialIcon url="https://twitter.com/jaketrent" />
             </a>
             <a href="https://www.hotmail.com" target="_cccccc" rel="cccccccc">
               <SocialIcon url="https://facebook.com/jaketrent" />
-            </a>
+            </a> */}
           </div>
         </div>
         {/*
@@ -284,12 +286,10 @@ function App() {
               <Cart />
             </div>
             <p>
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi
-              ultricies libero vel nulla facilisis dignissim. Vestibulum id
-              lectus luctus, luctus ex eu, vestibulum tellus. Duis sollicitudin
-              nec velit vel elementum. Nullam sagittis sem vitae lorem gravida
-              vehicula. Sed in ante in justo suscipit ultricies. Vestibulum
-              fringilla urna id mauris auctor, a auctor odio laoreet.
+              "I am a MERN Full stack developer familiar with react MongoDB
+              Nodejs Next.js GraphQL RestAPI Tailwind & Chakra UI but i Prefere
+              pure CSS ..my Valuable skill is Searching this mean i can search
+              and learn any new technology.."
             </p>
           </div>
         </div>
@@ -381,12 +381,26 @@ function App() {
           ></path>
         </svg>
         <div ref={xxx} className="container2">
+          <div className="Myprojects">
+            My Projects
+            <p>
+              Please click on the name of project and a new tab will oben to see
+              it.
+            </p>
+          </div>
           {isVisible1 && (
             <div
               ref={animationRef1}
               className={`animation-div1 ${isVisible1 ? "visible" : ""}`}
             >
-              animate me 1
+              <a
+                href="https://mern-ecommerce-project-dy8y.onrender.com/products"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="link2"
+              >
+                MERN_Ecommerce_Project
+              </a>
             </div>
           )}
           {isVisible1 && (
@@ -394,7 +408,14 @@ function App() {
               ref={animationRef2}
               className={`animation-div2 ${isVisible1 ? "visible" : ""}`}
             >
-              animate me 2
+              <a
+                href="https://design-reports-of-all-employees-rest-api-frcb.onrender.com"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="link2"
+              >
+                Design of Products RestAPI APP
+              </a>
             </div>
           )}
           {isVisible1 && (
@@ -402,7 +423,14 @@ function App() {
               ref={animationRef3}
               className={`animation-div3 ${isVisible1 ? "visible" : ""}`}
             >
-              animate me 3
+              <a
+                href="https://meetup-next-app-nu.vercel.app/"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="link2"
+              >
+                Meetup Next.js App
+              </a>
             </div>
           )}
           {isVisible1 && (
@@ -410,7 +438,44 @@ function App() {
               ref={animationRef4}
               className={`animation-div4 ${isVisible1 ? "visible" : ""}`}
             >
-              animate me 4
+              <a
+                href="https://abdelmeguid.github.io/restaurant_react_app/"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="link2"
+              >
+                Restaurant_React_App
+              </a>
+            </div>
+          )}
+          {isVisible1 && (
+            <div
+              ref={animationRef5}
+              className={`animation-div5 ${isVisible1 ? "visible" : ""}`}
+            >
+              <a
+                href="https://abdelmeguid.github.io/countryIndicate/"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="link2"
+              >
+                country_Indicate_React_App
+              </a>
+            </div>
+          )}
+          {isVisible1 && (
+            <div
+              ref={animationRef6}
+              className={`animation-div6 ${isVisible1 ? "visible" : ""}`}
+            >
+              <a
+                href="https://abdelmeguid.github.io/landing-page-primary_project/"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="link2"
+              >
+                landing-page-primary_project
+              </a>
             </div>
           )}
         </div>

@@ -28,7 +28,7 @@
 }
 
 .introduction {
-  background-color: rgb(134, 28, 28);
+  background-color: #421bd1;
   border-radius: 50px;
   position: flex;
   flex-wrap: wrap;
@@ -52,9 +52,9 @@
 }
 
 .introduction > p {
-  margin: 0;
+  margin: -18px;
   width: 450px;
-  font-size: 16px;
+  font-size: 29px;
 }
 
 .svg1 {
@@ -112,12 +112,14 @@
   width: min-content;
   height: min-content;
   display: flex;
-  flex-direction: row;
-  flex-flow: row;
-  margin: 20px;
-
-  float: right;
+  flex-direction: column;
+  flex-flow: column;
+  margin: 0px;
+  float: left;
   z-index: 30;
+  position: absolute;
+  top: 101%;
+  left: 0%;
 }
 
 .icons a {
@@ -152,13 +154,20 @@
   position: absolute;
 }
 
+.link2 {
+  background-color: #421bd1;
+  text-decoration: none;
+  color: #000;
+}
+
 .animation-div1 {
   position: absolute;
+  top: 15%;
   animation: slide-in1 linear 0.3s forwards;
   opacity: 0;
-  width: 30%;
-  height: 100px;
-  background-color: rgb(146, 72, 12);
+  width: 39%;
+  height: 10%;
+  background-color: #421bd1;
 
   text-size-adjust: bold;
   text-align: center;
@@ -184,11 +193,11 @@
 .animation-div2 {
   position: absolute;
   animation: slide-in1 linear 0.3s forwards;
-  top: 30%;
+  top: 29%;
   opacity: 0;
-  width: 30%;
+  width: 39%;
   height: 100px;
-  background-color: rgb(146, 72, 12);
+  background-color: #421bd1;
 
   text-size-adjust: bold;
   text-align: center;
@@ -204,11 +213,11 @@
 .animation-div3 {
   position: absolute;
   animation: slide-in2 linear 0.3s forwards;
-  top: 50%;
+  top: 48%;
   opacity: 0;
-  width: 30%;
+  width: 39%;
   height: 100px;
-  background-color: rgb(146, 72, 12);
+  background-color: #421bd1;
 
   text-size-adjust: bold;
   text-align: center;
@@ -235,11 +244,51 @@
 .animation-div4 {
   position: absolute;
   animation: slide-in2 linear 0.3s forwards;
-  top: 70%;
+  top: 62%;
   opacity: 0;
-  width: 30%;
+  width: 39%;
   height: 100px;
-  background-color: rgb(146, 72, 12);
+  background-color: #421bd1;
+
+  text-size-adjust: bold;
+  text-align: center;
+  font-size: xx-large;
+
+  border-radius: 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 5%;
+}
+
+.animation-div5 {
+  top: 79%;
+  position: absolute;
+  animation: slide-in1 linear 0.3s forwards;
+  opacity: 0;
+  width: 39%;
+  height: 100px;
+  background-color: #421bd1;
+
+  text-size-adjust: bold;
+  text-align: center;
+  font-size: xx-large;
+  border-radius: 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 5%;
+}
+
+.animation-div6 {
+  top: 93%;
+  position: absolute;
+  animation: slide-in1 linear 0.3s forwards;
+
+  opacity: 0;
+  width: 39%;
+  height: 100px;
+  background-color: #421bd1;
 
   text-size-adjust: bold;
   text-align: center;
@@ -257,7 +306,7 @@
   margin-top: 0px;
   margin-bottom: 0px;
   padding-top: 60px;
-  height: 700px;
+  height: 1000px;
   margin-left: 60px;
 
   z-index: 5;
@@ -311,6 +360,30 @@
   padding: 2% 0.5% 2% 0.5%;
   border-radius: 40px;
   right: 41%;
+  margin-bottom: 6%;
+}
+.Myprojects {
+  position: absolute;
+  background-color: #421bd1;
+  /* display: flex; */
+  align-items: center;
+  justify-content: center;
+  width: 81%;
+  color: aquamarine;
+  font-size: 201%;
+  top: 0%;
+  /* padding: 2% 0.5% 2% 0.5%; */
+  border-radius: 40px;
+  right: 12%;
+  margin: 0px;
+  height: 11%;
+  color: #000;
+  margin-top: 24px;
+  padding-top: 7px;
+}
+.Myprojects > p {
+  margin-top: 6px;
+  color: white;
 }
 
 .svgn2 {
@@ -391,26 +464,17 @@ iframe:hover {
 
 .group1 {
   display: flex;
-  flex-direction: row;
+  flex-direction: column;
   position: relative;
   opacity: 1;
 }
 
 .group2 {
   display: flex;
-  flex-direction: row;
+  flex-direction: column;
   /* overflow: hidden; */
 
   position: relative;
-}
-
-#svg2 {
-  width: auto;
-  height: 226%;
-  position: absolute;
-  bottom: -50%;
-  left: 63%;
-  opacity: 0.5;
 }
 
 div > .iconsn2 {
@@ -463,22 +527,13 @@ div > .iconsn2 {
 }
 
 #svg2 {
-  width: auto;
-  height: 226%;
-  position: absolute;
-  bottom: -50%;
-  left: 63%;
-  opacity: 0.5;
-}
-
-#backOfsvg2 {
-  background-color: #7b7c81;
-  width: 300px;
+  background-color: transparent;
+  width: 301px;
   height: 61%;
   position: absolute;
   bottom: -60%;
   left: 0%;
-  z-index: 70;
+  z-index: 80;
 }
 
 .containertech1 {
@@ -495,8 +550,21 @@ div > .iconsn2 {
   top: 39%;
 }
 
-/* Medium */
-@media (max-width: 992px) {
+#backOfsvg2 {
+  background-color: #7b7c81;
+  width: 301px;
+  height: 61%;
+  position: absolute;
+  bottom: -60%;
+  left: 0%;
+  z-index: 70;
+}
+
+/* before Medium for two ball svg*/
+@media (max-width: 1500px) {
+  .Myprojects {
+    height: 9%;
+  }
   .containertech1 {
     display: none;
   }
@@ -504,7 +572,159 @@ div > .iconsn2 {
   .containertech2 {
     display: none;
   }
+  .container2 {
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+  }
 
+  .animation-div1 {
+    position: absolute;
+    animation: slide-in1 linear 0.3s forwards;
+
+    background-color: #421bd1;
+    /* display: flex; */
+
+    width: 90%;
+    color: aquamarine;
+    font-size: 201%;
+
+    /* padding: 2% 0.5% 2% 0.5%; */
+    border-radius: 40px;
+    right: 30%;
+    margin-left: 5%;
+    margin-right: 5%;
+
+    color: #000;
+    margin-top: 10px;
+  }
+
+  @keyframes slide-in1 {
+    0% {
+      left: 0px;
+      opacity: 1;
+    }
+    100% {
+      left: 2%;
+      opacity: 1;
+    }
+  }
+
+  .animation-div2 {
+    position: absolute;
+    animation: slide-in1 linear 0.3s forwards;
+
+    background-color: #421bd1;
+    /* display: flex; */
+
+    width: 90%;
+    color: aquamarine;
+    font-size: 201%;
+
+    /* padding: 2% 0.5% 2% 0.5%; */
+    border-radius: 40px;
+    right: 30%;
+    margin-left: 5%;
+    margin-right: 5%;
+
+    color: #000;
+    margin-top: 10px;
+  }
+
+  .animation-div3 {
+    position: absolute;
+    animation: slide-in1 linear 0.3s forwards;
+
+    background-color: #421bd1;
+    /* display: flex; */
+
+    width: 90%;
+    color: aquamarine;
+    font-size: 201%;
+
+    /* padding: 2% 0.5% 2% 0.5%; */
+    border-radius: 40px;
+    right: 30%;
+    margin-left: 5%;
+    margin-right: 5%;
+
+    color: #000;
+    margin-top: 10px;
+  }
+
+  .animation-div4 {
+    position: absolute;
+    animation: slide-in1 linear 0.3s forwards;
+
+    background-color: #421bd1;
+    /* display: flex; */
+
+    width: 90%;
+    color: aquamarine;
+    font-size: 201%;
+
+    /* padding: 2% 0.5% 2% 0.5%; */
+    border-radius: 40px;
+    right: 30%;
+    margin-left: 5%;
+    margin-right: 5%;
+
+    color: #000;
+    margin-top: 10px;
+  }
+
+  .animation-div5 {
+    position: absolute;
+    animation: slide-in1 linear 0.3s forwards;
+
+    background-color: #421bd1;
+    /* display: flex; */
+
+    width: 90%;
+    color: aquamarine;
+    font-size: 201%;
+
+    /* padding: 2% 0.5% 2% 0.5%; */
+    border-radius: 40px;
+    right: 30%;
+    margin-left: 5%;
+    margin-right: 5%;
+
+    color: #000;
+    margin-top: 10px;
+  }
+
+  .animation-div6 {
+    position: absolute;
+    animation: slide-in1 linear 0.3s forwards;
+
+    background-color: #421bd1;
+    /* display: flex; */
+
+    width: 90%;
+    color: aquamarine;
+    font-size: 201%;
+
+    /* padding: 2% 0.5% 2% 0.5%; */
+    border-radius: 40px;
+    right: 30%;
+    margin-left: 5%;
+    margin-right: 5%;
+
+    color: #000;
+    margin-top: 10px;
+  }
+
+  .container2 {
+    height: 1400px;
+  }
+  .container3 {
+    height: 1400px;
+  }
+}
+
+/* Medium */
+@media (max-width: 992px) {
   .iconsn2 {
     flex-direction: column;
   }
@@ -527,11 +747,34 @@ div > .iconsn2 {
 
   .container2 {
     margin-left: 68px;
+    height: 1800px;
+  }
+
+  .Myprojects {
+    position: absolute;
+    background-color: #421bd1;
+    /* display: flex; */
+    align-items: center;
+    justify-content: center;
+    width: 87%;
+    color: aquamarine;
+    font-size: 201%;
+    top: 0%;
+    /* padding: 2% 0.5% 2% 0.5%; */
+    border-radius: 40px;
+    right: 7%;
+    margin: 0px;
+    height: 9%;
+    color: #000;
+    margin-top: 10px;
+  }
+  .Myprojects > p {
+    margin: 5px;
   }
   .container3 {
     margin-left: 68px;
     margin-top: -2px;
-    height: 1169px;
+    height: 1400px;
   }
 
   .svgn1 {
@@ -589,45 +832,103 @@ div > .iconsn2 {
     background-color: transparent;
   }
 
-  .MySkills {
+  /* .MySkills {
     width: 139px;
     position: absolute;
     top: 86px;
-    left: 40%;
+    left: 27%;
+  } */
+
+  .icons {
+    background-color: transparent;
+    width: min-content;
+    height: min-content;
+    display: flex;
+    flex-direction: column;
+    flex-flow: column;
+    margin: 0px;
+    float: left;
+    z-index: 30;
+    position: absolute;
+    top: 101%;
+    left: 0%;
   }
-}
-.icons {
-  background-color: transparent;
-  width: min-content;
-  height: min-content;
-  display: flex;
-  flex-direction: column;
-  flex-flow: column;
-  margin: 0px;
-  float: left;
-  z-index: 30;
-  position: absolute;
-  top: 101%;
-  left: 0%;
-}
-.group1 {
-  display: flex;
-  flex-direction: column;
-  position: relative;
-  gap: 1px;
-}
+  .group1 {
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    gap: 1px;
+  }
 
-.group2 {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
+  .group2 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
 
-  position: relative;
-}
+    position: relative;
+  }
 
-/* .animation-div1 {
+  /* .animation-div1 {
+    inline-size: 50px;
+    overflow-wrap: break-word;
     animation: slide-in1-s linear 0.3s forwards;
+    width: 100%;
+  }
+
+  .animation-div2 {
+    inline-size: 50px;
+    overflow-wrap: break-word;
+    animation: slide-in2-s linear 0.3s forwards;
+    width: 98%;
+  }
+
+  .animation-div5 {
+    inline-size: 50px;
+    overflow-wrap: break-word;
+    animation: slide-in1-s linear 0.3s forwards;
+    width: 31px;
+  }
+
+  .animation-div6 {
+    inline-size: 50px;
+    overflow-wrap: break-word;
+    animation: slide-in2-s linear 0.3s forwards;
+    width: 98%;
+  }
+
+  .animation-div3 {
+    inline-size: 50px;
+    overflow-wrap: break-word;
+    animation: slide-in1-s linear 0.3s forwards;
+    width: 31px;
+  }
+
+  .animation-div3 > a {
+    width: 271px;
+  }
+
+  .animation-div4 {
+    inline-size: 50px;
+    overflow-wrap: break-word;
+    animation: slide-in2-s linear 0.3s forwards;
+    width: 98%;
+  }
+  .link2 {
+    inline-size: 150px;
+    overflow-wrap: break-word;
+    width: 308px;
+  }
+
+  @keyframes slide-in2-s {
+    0% {
+      left: 0px;
+      opacity: 1;
+    }
+    100% {
+      left: -4%;
+      opacity: 1;
+    }
   }
 
   @keyframes slide-in1-s {
@@ -636,10 +937,11 @@ div > .iconsn2 {
       opacity: 1;
     }
     100% {
-      left: 0%;
+      left: 40%;
       opacity: 1;
     }
-  }
+  } */
+  /* 
 
   .animation-div2 {
     animation: slide-in1-s linear 0.3s forwards;
@@ -671,21 +973,22 @@ div > .iconsn2 {
     background-color: #421bd1;
   } */
 
-#svg2 {
-  background-color: transparent;
-  width: 301px;
-  height: 61%;
-  position: absolute;
-  bottom: -60%;
-  left: 0%;
-  z-index: 80;
-}
-#backOfsvg2 {
-  background-color: #7b7c81;
-  width: 300px;
-  height: 61%;
-  position: absolute;
-  bottom: -60%;
-  left: 0%;
-  z-index: 70;
+  #svg2 {
+    background-color: transparent;
+    width: 301px;
+    height: 61%;
+    position: absolute;
+    bottom: -60%;
+    left: 0%;
+    z-index: 80;
+  }
+  /* #backOfsvg2 {
+    background-color: #7b7c81;
+    width: 273px;
+    height: 61%;
+    position: absolute;
+    bottom: -60%;
+    left: 0%;
+    z-index: 70;
+  } */
 }
