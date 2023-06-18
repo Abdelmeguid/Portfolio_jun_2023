@@ -158,6 +158,11 @@
   background-color: #421bd1;
   text-decoration: none;
   color: #000;
+  width: 92%;
+  display: block;
+  position: absolute;
+  height: 71%;
+  word-wrap: break-word;
 }
 
 .animation-div1 {
@@ -198,11 +203,9 @@
   width: 39%;
   height: 100px;
   background-color: #421bd1;
-
   text-size-adjust: bold;
   text-align: center;
   font-size: xx-large;
-
   border-radius: 50px;
   display: flex;
   justify-content: center;
@@ -352,7 +355,7 @@
   display: flex;
   align-items: center;
   justify-content: center;
-  width: 20%;
+  width: 21%;
   color: aquamarine;
   font-size: 201%;
 
@@ -374,8 +377,8 @@
   top: 0%;
   /* padding: 2% 0.5% 2% 0.5%; */
   border-radius: 40px;
-  right: 12%;
-  margin: 0px;
+
+  margin: 10%;
   height: 11%;
   color: #000;
   margin-top: 24px;
@@ -767,6 +770,7 @@ div > .iconsn2 {
     height: 9%;
     color: #000;
     margin-top: 10px;
+    height: 12%;
   }
   .Myprojects > p {
     margin: 5px;
@@ -981,6 +985,10 @@ div > .iconsn2 {
     bottom: -60%;
     left: 0%;
     z-index: 80;
+  }
+
+  .MySkills {
+    width: 41%;
   }
   /* #backOfsvg2 {
     background-color: #7b7c81;
