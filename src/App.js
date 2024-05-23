@@ -72,7 +72,7 @@ function App() {
       lottie.destroy();
     };
   }, []);
-  ///next svg
+  ///next svg nnn
 
   useEffect(() => {
     lottie.loadAnimation({
