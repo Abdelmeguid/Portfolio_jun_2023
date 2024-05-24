@@ -72,7 +72,7 @@ function App() {
       lottie.destroy();
     };
   }, []);
-  ///next svg nnn
+  ///next svg
 
   useEffect(() => {
     lottie.loadAnimation({
@@ -384,7 +384,7 @@ function App() {
           <div className="Myprojects">
             My Projects
             <p>
-              Please click on the name of project and a new tab will oben to see
+              click on any project and a new tab will oben to see
               it.
             </p>
           </div>
@@ -398,8 +398,9 @@ function App() {
                 target="_blank"
                 rel="noopener noreferrer"
                 className="link2"
+             
               >
-                MERN_Ecommerce_Project
+                MERN_Ecommerce Project
               </a>
             </div>
           )}
@@ -444,7 +445,7 @@ function App() {
                 rel="noopener noreferrer"
                 className="link2"
               >
-                Restaurant_React_App
+                Restaurant React_App
               </a>
             </div>
           )}
@@ -459,7 +460,7 @@ function App() {
                 rel="noopener noreferrer"
                 className="link2"
               >
-                country_Indicate_React_App
+                country_Indicate React_App
               </a>
             </div>
           )}

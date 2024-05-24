@@ -159,10 +159,18 @@
   text-decoration: none;
   color: #000;
   width: 92%;
-  display: block;
+  display: flex;
   position: absolute;
   height: 71%;
-  word-wrap: break-word;
+
+
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  white-space: normal; /* Allows the text to wrap normally */
+  word-wrap: break-word; /* Breaks long words to fit within the container */
+  overflow-wrap: break-word; /* Ensures wrapping for long words */
+  
 }
 
 .animation-div1 {
@@ -594,6 +602,9 @@ div > .iconsn2 {
 
     color: #000;
     margin-top: 10px;
+    display: flex;
+  justify-content: center;
+  align-items: center;
   }
 
   @keyframes slide-in1 {
