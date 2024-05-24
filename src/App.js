@@ -1,7 +1,8 @@
 import "./App.css";
 import React from "react";
-import { useEffect, useRef } from "react";
+import { useEffect, useRef ,useState} from "react";
 import { SocialIcon } from "react-social-icons";
+import nodePhoto from "./svg/1686391647921.png";
 
 // install as below
 // npm i --save @fortawesome/fontawesome-svg-core
@@ -16,12 +17,14 @@ import { SocialIcon } from "react-social-icons";
 ////////////////////////////////////////////////////////////////////////
 import { useInView } from "react-intersection-observer";
 
+
 import Cart from "./Cart";
 
 // npm install lottie-web
 import lottie from "lottie-web";
 
 function App() {
+  const [isActive, setIsActive] = useState(true);
   const container2 = useRef(null);
   const container3 = useRef(null);
   //start animation divs
@@ -57,6 +60,15 @@ function App() {
   //   };
   // }, []);
   //start animation divs
+
+  //for applay continous animation classes 
+
+  useEffect(() => {
+    const interval = setInterval(() => {
+        setIsActive(prev => !prev);
+    }, 1000); // Toggle the animation state every seconds
+    return () => clearInterval(interval); // Clean up interval on component unmount
+}, []);
 
   useEffect(() => {
     lottie.loadAnimation({
@@ -587,17 +599,19 @@ function App() {
               </div>
             </div>
             <div className="group2">
-              <div id="i4">
-                <iframe
+              {/* <div id="i4" > */}
+              <div  className="photoContainer">
+                {/* <iframe
                   title="4"
                   src="https://embed.lottiefiles.com/animation/107688"
-                ></iframe>
+                ></iframe> */}
+                <img src={nodePhoto}  className={`photoAdjust ${isActive ? 'animate__animated animate__heartBeat' : ''}`} alt="test"/>
               </div>
               <div id="i5">
-                <iframe
+                {/* <iframe
                   title="5"
                   src="https://embed.lottiefiles.com/animation/111575"
-                ></iframe>
+                ></iframe> */}
                 <div id="u5"></div>
               </div>
 

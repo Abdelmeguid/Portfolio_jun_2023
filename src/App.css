@@ -8,6 +8,23 @@
   /*wonderful rezept*/
 }
 
+.photoContainer{
+
+  height: 67px;
+  width: 34px;
+  left: 86px;
+  position: relative;
+}
+
+.photoAdjust{
+  overflow: hidden;
+  position: relative;
+  z-index: 100;
+  height: 64px;
+}
+
+
+
 .container1 {
   background-color: chartreuse;
 
