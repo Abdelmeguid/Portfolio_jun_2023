@@ -1,0 +1,52 @@
+
+              <div id="i1">
+                <iframe
+                  title="1"
+                  src="https://embed.lottiefiles.com/animation/63210"
+                ></iframe>
+              </div>
+              <div id="i2">
+                <iframe
+                  title="2"
+                  src="https://embed.lottiefiles.com/animation/296"
+                ></iframe>
+                {/* <div id="u2"></div> */}
+              </div>
+
+              <div id="i3">
+                <iframe
+                  title="3"
+                  src="https://embed.lottiefiles.com/animation/51775"
+                ></iframe>
+                {/* <div id="u3"></div> */}
+              </div>
+           
+          
+              {/* <div id="i4" > */}
+                 <div  >
+                <iframe
+                  title="4"
+                  src="https://embed.lottiefiles.com/animation/107688"
+                ></iframe>
+                 </div>
+                 <div>
+                <img src={nodePhoto}  className={`photoAdjust ${isActive ? 'animate__animated animate__heartBeat' : ''}`} alt="test"/>
+              </div>
+              <div id="i5">
+                {/* <iframe
+                  title="5"
+                  src="https://embed.lottiefiles.com/animation/111575"
+                ></iframe> */}
+                <div id="u5"></div>
+              </div>
+
+              {/*  <iframe
+              className="next"
+              title="6"
+              src="https://embed.lottiefiles.com/animation/119623"
+            ></iframe>
+        */}
+
+              <div id="svg2" ref={container3}></div>
+              <div id="backOfsvg2"></div>
+            

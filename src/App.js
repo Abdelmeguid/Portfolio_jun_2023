@@ -2,7 +2,17 @@ import "./App.css";
 import React from "react";
 import { useEffect, useRef ,useState} from "react";
 import { SocialIcon } from "react-social-icons";
-import nodePhoto from "./svg/1686391647921.png";
+
+import reactPhoto from "./svg/ReactJS-removebg-preview.png";
+import nodePhoto from "./svg/Node.js_logo-removebg-preview.png";
+import expressPhoto from "./svg/1686391647921.png";
+import tailwindPhoto from "./svg/tailwind-css-1.svg";
+import MongoDBPhoto from "./svg/MongoDB.png";
+import nextPhoto from "./svg/next-js.png";
+import graphqlPhoto from "./svg/graphql_logo_white.png";
+import typescriptPhoto from "./svg/typescript_logo_icon_144782.png";
+
+
 
 // install as below
 // npm i --save @fortawesome/fontawesome-svg-core
@@ -574,57 +584,17 @@ function App() {
           {/* Below related ball svg note the ref value */}
           <div ref={containertech} className="containertech1 "></div>
           <div ref={containertech2} className="containertech2 "></div>
-          <div className="iconsn2 ">
-            <div className="group1">
-              <div id="i1">
-                <iframe
-                  title="1"
-                  src="https://embed.lottiefiles.com/animation/63210"
-                ></iframe>
-              </div>
-              <div id="i2">
-                <iframe
-                  title="2"
-                  src="https://embed.lottiefiles.com/animation/296"
-                ></iframe>
-                <div id="u2"></div>
-              </div>
-
-              <div id="i3">
-                <iframe
-                  title="3"
-                  src="https://embed.lottiefiles.com/animation/51775"
-                ></iframe>
-                <div id="u3"></div>
-              </div>
-            </div>
-            <div className="group2">
-              {/* <div id="i4" > */}
-              <div  className="photoContainer">
-                {/* <iframe
-                  title="4"
-                  src="https://embed.lottiefiles.com/animation/107688"
-                ></iframe> */}
-                <img src={nodePhoto}  className={`photoAdjust ${isActive ? 'animate__animated animate__heartBeat' : ''}`} alt="test"/>
-              </div>
-              <div id="i5">
-                {/* <iframe
-                  title="5"
-                  src="https://embed.lottiefiles.com/animation/111575"
-                ></iframe> */}
-                <div id="u5"></div>
-              </div>
-
-              {/*  <iframe
-              className="next"
-              title="6"
-              src="https://embed.lottiefiles.com/animation/119623"
-            ></iframe>
-        */}
-
-              <div id="svg2" ref={container3}></div>
-              <div id="backOfsvg2"></div>
-            </div>
+          <div className="MySkills2 ">
+           
+            <div><img src={reactPhoto}  className={`photoAdjust ${isActive ? '' : 'animate__animated animate__heartBeat'}`} alt="test"/></div>
+            <div><img src={nodePhoto}  className={`photoAdjust ${isActive ? 'animate__animated animate__heartBeat' : ''}`} alt="test"/></div>
+            <div><img src={expressPhoto}  className={`photoAdjust ${isActive ? '' : 'animate__animated animate__heartBeat'}`} alt="test"/></div>
+            <div><img src={tailwindPhoto}  className={`photoAdjust ${isActive ? 'animate__animated animate__heartBeat' : ''}`} alt="test"/></div>
+            <div><img src={MongoDBPhoto}  className={`photoAdjust ${isActive ? '' : 'animate__animated animate__heartBeat'}`} alt="test"/></div>
+            <div><img src={nextPhoto}  className={`photoAdjust ${isActive ? 'animate__animated animate__heartBeat' : ''}`} alt="test"/></div>
+            <div><img src={graphqlPhoto}  className={`photoAdjust ${isActive ? '' : 'animate__animated animate__heartBeat'}`} alt="test"/></div>
+            <div><img src={typescriptPhoto}  className={`photoAdjust ${isActive ? 'animate__animated animate__heartBeat' : ''}`} alt="test"/></div>
+        
           </div>
         </div>
         <svg

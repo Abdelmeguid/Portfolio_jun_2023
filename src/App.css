@@ -8,20 +8,14 @@
   /*wonderful rezept*/
 }
 
-.photoContainer{
+/* .photoContainer{
 
   height: 67px;
   width: 34px;
   left: 86px;
   position: relative;
-}
+} */
 
-.photoAdjust{
-  overflow: hidden;
-  position: relative;
-  z-index: 100;
-  height: 64px;
-}
 
 
 
@@ -356,7 +350,7 @@
   justify-content: center;
   align-content: center;
   align-items: center;
-  height: 1169px;
+  
 }
 
 .MySkills1 {
@@ -388,7 +382,7 @@
   padding: 2% 0.5% 2% 0.5%;
   border-radius: 40px;
   right: 41%;
-  margin-bottom: 6%;
+  margin-bottom: 0%;
 }
 .Myprojects {
   position: absolute;
@@ -477,20 +471,38 @@ iframe:hover {
   animation-play-state: paused;
 }
 
-.iconsn2 > div {
-  background-color: #7b7c81;
-  width: auto;
+
+.MySkills2 > div {
+  background-color: #3048c4;
+  margin-bottom: 30px;
+  padding:20%;
+  width: 150%;
+  border-radius: 10%;
+
 }
 
-.iconsn2 {
+.photoAdjust{
+  overflow: hidden;
+  height: 80px;
+}
+
+
+.MySkills2 {
   display: flex;
   flex-direction: column;
-  margin-top: 20px;
+  justify-content: center;
+  align-items:center;
+  
+  margin-top: 5%;
   pointer-events: none;
   position: relative;
+  background-color: #414441;
+  padding:  5% 10% 5% 10%;
+  border-radius: 20%;
+  z-index: 20;
 }
 
-.group1 {
+/* .group1 {
   display: flex;
   flex-direction: column;
   position: relative;
@@ -500,16 +512,16 @@ iframe:hover {
 .group2 {
   display: flex;
   flex-direction: column;
-  /* overflow: hidden; */
+  overflow: hidden; 
 
   position: relative;
-}
+} 
 
 div > .iconsn2 {
   background-color: chartreuse;
   backdrop-filter: blur(5px);
 }
-#i2 {
+/* #i2 {
   position: relative;
   background-color: #7b7c81;
 }
@@ -520,9 +532,9 @@ div > .iconsn2 {
   background-color: #7b7c81;
   z-index: 1;
   bottom: -5%;
-}
+} */
 
-#i3 {
+/* #i3 {
   position: relative;
   opacity: 3;
   background-color: #7b7c81;
@@ -542,9 +554,9 @@ div > .iconsn2 {
 #i5 {
   position: relative;
   background-color: #7b7c81;
-}
+} */
 
-#u5 {
+/* #u5 {
   position: absolute;
   width: 100%;
   height: 25%;
@@ -552,7 +564,7 @@ div > .iconsn2 {
 
   z-index: 1;
   bottom: 0%;
-}
+} */
 
 #svg2 {
   background-color: #7b7c81;
@@ -744,13 +756,13 @@ div > .iconsn2 {
     height: 1400px;
   }
   .container3 {
-    height: 1400px;
+    /* height: 1400px; */
   }
 }
 
 /* Medium */
 @media (max-width: 992px) {
-  .iconsn2 {
+  .MySkills2 {
     flex-direction: column;
   }
   .App {
@@ -800,7 +812,7 @@ div > .iconsn2 {
   .container3 {
     margin-left: 68px;
     margin-top: -2px;
-    height: 1400px;
+    /* height: 1400px; */
   }
 
   .svgn1 {
