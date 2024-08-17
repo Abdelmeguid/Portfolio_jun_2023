@@ -310,8 +310,7 @@ function App() {
             </div>
             <p>
               "I am a MERN Full stack developer familiar with react MongoDB
-              Nodejs Next.js GraphQL RestAPI Tailwind & Chakra UI but i Prefere
-              pure CSS ..my Valuable skill is Searching this mean i can search
+              Nodejs Next.js GraphQL RestAPI Tailwind & Chakra UI  ..my Valuable skill is Searching this mean i can search
               and learn any new technology.."
             </p>
           </div>
@@ -514,13 +513,22 @@ function App() {
               ref={animationRef6}
               className={`animation-div6 ${isVisible1 ? "visible" : ""}`}
             >
-               <a
+               {/* <a
                 href="https://weather-api-vercel-app.vercel.app/"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="link2"
               >
                 weather_App created on vercel 
+              </a> */}
+
+               <a
+                href="https://neu-gilt.vercel.app/"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="link2"
+              >
+                survey system by react and Next.js 
               </a>
             </div>
           )}
