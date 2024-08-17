@@ -44,6 +44,7 @@ function App() {
   const animationRef4 = useRef(null);
   const animationRef5 = useRef(null);
   const animationRef6 = useRef(null);
+  const animationRef7 = useRef(null);
 
   const containertech = useRef(null);
   const containertech2 = useRef(null);
@@ -279,7 +280,7 @@ function App() {
               target="ccsccecc"
               rel="ccceccsccc"
             >
-              <SocialIcon url="https://www.linkedin.com/in/ahmed-abdel-meguid-b688a91b3/" />
+              <SocialIcon url="https://www.linkedin.com/in/ahmed-abdelmegid-b688a91b3/" />
             </a>
             <a href="https://twitter.com/" target="_ccsccecc" rel="cccesccccc">
               <SocialIcon url="https://www.upwork.com/freelancers/~012bd91af747be023f?qpn-profile-completeness=certificate" />
@@ -410,6 +411,7 @@ function App() {
               it.
             </p>
           </div>
+          
           {isVisible1 && (
             <div
               ref={animationRef1}
@@ -422,11 +424,43 @@ function App() {
                 className="link2"
              
               >
-                MERN_Ecommerce Project
+              MERN_Ecommerce Project
               </a>
             </div>
           )}
-          {isVisible1 && (
+
+{isVisible1 && (
+            <div
+              ref={animationRef2}
+              className={`animation-div2 ${isVisible1 ? "visible" : ""}`}
+            >
+              <a
+                href="https://abdelmeguid.github.io/restaurant_react_app/"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="link2"
+              >
+                Restaurant React_App
+              </a>
+            </div>
+          )}
+
+{isVisible1 && (
+            <div
+              ref={animationRef3}
+              className={`animation-div3 ${isVisible1 ? "visible" : ""}`}
+            >
+              <a
+                href="https://abdelmeguid.github.io/get_all_data_of_your_location/"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="link2"
+              >
+                get data by location App
+              </a>
+            </div>
+          )}
+          {/* {isVisible1 && (
             <div
               ref={animationRef2}
               className={`animation-div2 ${isVisible1 ? "visible" : ""}`}
@@ -440,11 +474,11 @@ function App() {
                 Design of Products RestAPI APP
               </a>
             </div>
-          )}
+          )} */}
           {isVisible1 && (
             <div
-              ref={animationRef3}
-              className={`animation-div3 ${isVisible1 ? "visible" : ""}`}
+              ref={animationRef4}
+              className={`animation-div4 ${isVisible1 ? "visible" : ""}`}
             >
               <a
                 href="https://meetup-next-app-nu.vercel.app/"
@@ -456,40 +490,46 @@ function App() {
               </a>
             </div>
           )}
-          {isVisible1 && (
-            <div
-              ref={animationRef4}
-              className={`animation-div4 ${isVisible1 ? "visible" : ""}`}
-            >
-              <a
-                href="https://abdelmeguid.github.io/restaurant_react_app/"
-                target="_blank"
-                rel="noopener noreferrer"
-                className="link2"
-              >
-                Restaurant React_App
-              </a>
-            </div>
-          )}
-          {isVisible1 && (
+
+
+{isVisible1 && (
             <div
               ref={animationRef5}
               className={`animation-div5 ${isVisible1 ? "visible" : ""}`}
             >
               <a
-                href="https://abdelmeguid.github.io/countryIndicate/"
+                href="https://nextjs-bus-complaint-system.vercel.app/"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="link2"
               >
-                country_Indicate React_App
+                nextjs-V14-bus-complaint-Form
               </a>
             </div>
           )}
+          
+          
           {isVisible1 && (
             <div
               ref={animationRef6}
               className={`animation-div6 ${isVisible1 ? "visible" : ""}`}
+            >
+               <a
+                href="https://weather-api-vercel-app.vercel.app/"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="link2"
+              >
+                weather_App created on vercel 
+              </a>
+            </div>
+          )}
+
+
+{isVisible1 && (
+            <div
+              ref={animationRef7}
+              className={`animation-div7 ${isVisible1 ? "visible" : ""}`}
             >
               <a
                 href="https://abdelmeguid.github.io/landing-page-primary_project/"
