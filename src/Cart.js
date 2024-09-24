@@ -4,7 +4,7 @@ import classes from "./Cart.module.css";
 const Cart = () => {
   return (
     <div>
-      <img className={classes.img2} src={myIMG} alt="horse" />
+      <img className={classes.img2}  src={myIMG} alt="horse" />
     </div>
   );
 };

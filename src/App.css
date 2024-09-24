@@ -60,6 +60,8 @@
   shape-outside: circle();
   position: relative;
   overflow: hidden;
+ 
+  
 }
 
 .introduction > p {
@@ -184,26 +186,8 @@
   
 }
 
-.animation-div1 {
-  position: absolute;
-  top: 14%;
-  animation: slide-in1 linear 0.3s forwards;
-  opacity: 0;
-  width: 39%;
-  height: 100px;
-  background-color: #421bd1;
 
-  text-size-adjust: bold;
-  text-align: center;
-  font-size: xx-large;
-  border-radius: 50px;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  margin: 5%;
-}
-
-@keyframes slide-in1 {
+/* @keyframes slide-in1 {
   0% {
     left: 0px;
     opacity: 1;
@@ -212,27 +196,10 @@
     left: 50%;
     opacity: 1;
   }
-}
+} */
 
-.animation-div2 {
-  position: absolute;
-  animation: slide-in1 linear 0.3s forwards;
-  top: 28%;
-  opacity: 0;
-  width: 39%;
-  height: 100px;
-  background-color: #421bd1;
-  text-size-adjust: bold;
-  text-align: center;
-  font-size: xx-large;
-  border-radius: 50px;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  margin: 5%;
-}
 
-.animation-div3 {
+/* .animation-div3 {
   position: absolute;
   animation: slide-in2 linear 0.3s forwards;
   top: 42%;
@@ -341,18 +308,21 @@
   align-items: center;
   margin: 5%;
   
-}
+} */
 .container2 {
   background-color: chartreuse;
-  margin: 20px;
-  margin-top: 0px;
-  margin-bottom: 0px;
-  padding-top: 60px;
-  height: 1200px;
+ margin: 20px;
+ margin-top: 0px;
+ margin-bottom: 0px;
+ padding-top: 20px; 
+  /* 
+  
+  
+height: 1300px; */
   margin-left: 60px;
 
   z-index: 5;
-  position: relative;
+  /* position: relative; */
 }
 
 .container3 {
@@ -405,7 +375,7 @@
   margin-bottom: 0%;
 }
 .Myprojects {
-  position: absolute;
+  /* position: absolute; */
   background-color: #421bd1;
   /* display: flex; */
   align-items: center;
@@ -417,11 +387,11 @@
   /* padding: 2% 0.5% 2% 0.5%; */
   border-radius: 40px;
 
-  margin: 10%;
+  /* margin: 10%; */
   height: 11%;
   color: #000;
-  margin-top: 24px;
-  padding-top: 7px;
+  /* margin-top: 24px;
+  padding-top: 7px; */
 }
 .Myprojects > p {
   margin-top: 6px;
@@ -504,6 +474,9 @@ iframe:hover {
 .photoAdjust{
   overflow: hidden;
   height: 40px;
+  margin-left:auto;
+  margin-right:auto;
+  object-fit:auto;
   
 }
 
@@ -602,196 +575,174 @@ div > .iconsn2 {
 }
 
 .containertech1 {
-  height: 528px;
+ 
+  height: 51%;
+  width: 38%;
   position: absolute;
-  right: 2%;
-  top: 39%;
+  top: 25%;
+  right: 1%;
 }
 
 .containertech2 {
-  height: 528px;
+  height: 51%;
+  width: 38%;
   position: absolute;
-  left: 2%;
-  top: 39%;
+  top: 25%;
+  left: 1%;
 }
 
 /* before Medium for two ball svg*/
 @media (max-width: 1500px) {
+
+
   .Myprojects {
     height: 9%;
   }
-  .containertech1 {
-    display: none;
-  }
 
-  .containertech2 {
-    display: none;
-  }
   .container2 {
     display: flex;
     flex-direction: column;
-    padding: 20px;
+    justify-content:space-between;
+    align-items: center;
+    gap:50px;
   }
+
 
   .animation-div1 {
-    position: absolute;
-    animation: slide-in1 linear 0.3s forwards;
-
-    background-color: #421bd1;
-    /* display: flex; */
-
-    width: 90%;
-    color: aquamarine;
-    font-size: 201%;
-
-    /* padding: 2% 0.5% 2% 0.5%; */
-    border-radius: 40px;
-    right: 30%;
-    margin-left: 5%;
-    margin-right: 5%;
-
-    color: #000;
-    margin-top: 10px;
-    display: flex;
-  justify-content: center;
-  align-items: center;
+   
+    
+            /* top: 14%; */
+        /* position: absolute; */
+        background-color: #421bd1;
+        width: 438px;
+        color: #000;
+        font-size: xx-large;
+        border-radius: 50px;
+        height: 184px;
+        /* right: 25%; */
+        text-align: center;
+        display: flex;
+        justify-content: flex-start;
+        align-items: center;
+        flex-direction: column;
+        padding-left: -5%;
+        padding-left: 0%;
   }
 
-  @keyframes slide-in1 {
-    0% {
-      left: 0px;
-      opacity: 1;
-    }
-    100% {
-      left: 2%;
-      opacity: 1;
-    }
-  }
 
   .animation-div2 {
-    position: absolute;
-    animation: slide-in1 linear 0.3s forwards;
-
-    background-color: #421bd1;
-    /* display: flex; */
-
-    width: 90%;
-    color: aquamarine;
-    font-size: 201%;
-
-    /* padding: 2% 0.5% 2% 0.5%; */
-    border-radius: 40px;
-    right: 30%;
-    margin-left: 5%;
-    margin-right: 5%;
-
-    color: #000;
-    margin-top: 10px;
+  
+    /* top: 14%; */
+        /* position: absolute; */
+        background-color: #421bd1;
+        width: 438px;
+        color: #000;
+        font-size: xx-large;
+        border-radius: 50px;
+        height: 184px;
+        /* right: 25%; */
+        text-align: center;
+        display: flex;
+        justify-content: flex-start;
+        align-items: center;
+        flex-direction: column;
+        padding-left: -5%;
+        padding-left: 0%;
   }
 
   .animation-div3 {
-    position: absolute;
-    animation: slide-in1 linear 0.3s forwards;
-
-    background-color: #421bd1;
-    /* display: flex; */
-
-    width: 90%;
-    color: aquamarine;
-    font-size: 201%;
-
-    /* padding: 2% 0.5% 2% 0.5%; */
-    border-radius: 40px;
-    right: 30%;
-    margin-left: 5%;
-    margin-right: 5%;
-
-    color: #000;
-    margin-top: 10px;
+    /* top: 14%; */
+        /* position: absolute; */
+        background-color: #421bd1;
+        width: 438px;
+        color: #000;
+        font-size: xx-large;
+        border-radius: 50px;
+        height: 184px;
+        /* right: 25%; */
+        text-align: center;
+        display: flex;
+        justify-content: flex-start;
+        align-items: center;
+        flex-direction: column;
+        padding-left: -5%;
+        padding-left: 0%;
   }
 
   .animation-div4 {
-    position: absolute;
-    animation: slide-in1 linear 0.3s forwards;
-
-    background-color: #421bd1;
-    /* display: flex; */
-
-    width: 90%;
-    color: aquamarine;
-    font-size: 201%;
-
-    /* padding: 2% 0.5% 2% 0.5%; */
-    border-radius: 40px;
-    right: 30%;
-    margin-left: 5%;
-    margin-right: 5%;
-
-    color: #000;
-    margin-top: 10px;
+    /* top: 14%; */
+        /* position: absolute; */
+        background-color: #421bd1;
+        width: 438px;
+        color: #000;
+        font-size: xx-large;
+        border-radius: 50px;
+        height: 184px;
+        /* right: 25%; */
+        text-align: center;
+        display: flex;
+        justify-content: flex-start;
+        align-items: center;
+        flex-direction: column;
+        padding-left: -5%;
+        padding-left: 0%;
   }
 
   .animation-div5 {
-    position: absolute;
-    animation: slide-in1 linear 0.3s forwards;
-
-    background-color: #421bd1;
-    /* display: flex; */
-
-    width: 90%;
-    color: aquamarine;
-    font-size: 201%;
-
-    /* padding: 2% 0.5% 2% 0.5%; */
-    border-radius: 40px;
-    right: 30%;
-    margin-left: 5%;
-    margin-right: 5%;
-
-    color: #000;
-    margin-top: -6px;
+    /* top: 14%; */
+        /* position: absolute; */
+        background-color: #421bd1;
+        width: 438px;
+        color: #000;
+        font-size: xx-large;
+        border-radius: 50px;
+        height: 184px;
+        /* right: 25%; */
+        text-align: center;
+        display: flex;
+        justify-content: flex-start;
+        align-items: center;
+        flex-direction: column;
+        padding-left: -5%;
+        padding-left: 0%;
   }
 
   .animation-div6 {
-    position: absolute;
-    animation: slide-in1 linear 0.3s forwards;
-
-    background-color: #421bd1;
-    /* display: flex; */
-
-    width: 90%;
-    color: aquamarine;
-    font-size: 201%;
-
-    /* padding: 2% 0.5% 2% 0.5%; */
-    border-radius: 40px;
-    right: 30%;
-    margin-left: 5%;
-    margin-right: 5%;
-
-    color: #000;
-    margin-top: 12px;
+    /* top: 14%; */
+        /* position: absolute; */
+        background-color: #421bd1;
+        width: 438px;
+        color: #000;
+        font-size: xx-large;
+        border-radius: 50px;
+        height: 184px;
+        /* right: 25%; */
+        text-align: center;
+        display: flex;
+        justify-content: flex-start;
+        align-items: center;
+        flex-direction: column;
+        padding-left: -5%;
+        padding-left: 0%;
   }
 
   .animation-div7 {
-    position: absolute;
-    animation: slide-in1 linear 0.3s forwards;
-
-    background-color: #421bd1;
-    /* display: flex; */
-
-    width: 90%;
-    color: aquamarine;
-    font-size: 201%;
-
-    /* padding: 2% 0.5% 2% 0.5%; */
-    border-radius: 40px;
-    right: 30%;
-    margin-left: 5%;
-    margin-right: 5%;
-
-    color: #000;
-    margin-top:5%;
+    /* top: 14%; */
+        /* position: absolute; */
+        background-color: #421bd1;
+        width: 438px;
+        color: #000;
+        font-size: xx-large;
+        border-radius: 50px;
+        height: 184px;
+        /* right: 25%; */
+        text-align: center;
+        display: flex;
+        justify-content: flex-start;
+        align-items: center;
+        flex-direction: column;
+        padding-left: -5%;
+        padding-left: 0%;
   }
 
 
@@ -811,6 +762,15 @@ div > .iconsn2 {
 
 /* Medium */
 @media (max-width: 992px) {
+  .containertech1,.containertech2{
+    display:none;
+  }
+  .animation-div1,.animation-div2,.animation-div3,.animation-div4, .animation-div5, .animation-div6, .animation-div7
+  {
+    width: 89%;
+    right: auto;
+    height: 400px;
+  }
   .MySkills2 {
     flex-direction: column;
   }
@@ -833,11 +793,18 @@ div > .iconsn2 {
 
   .container2 {
     margin-left: 68px;
-    height: 1800px;
+    /* height: 1800px; */
+    display: flex;
+    flex-direction: column;
+    justify-content:space-between;
+    align-items: center;
+    gap:100px;
+    
+
   }
 
   .Myprojects {
-    position: absolute;
+    /* position: absolute; */
     background-color: #421bd1;
     /* display: flex; */
     align-items: center;
@@ -956,109 +923,7 @@ div > .iconsn2 {
     position: relative;
   }
 
-  /* .animation-div1 {
-    inline-size: 50px;
-    overflow-wrap: break-word;
-    animation: slide-in1-s linear 0.3s forwards;
-    width: 100%;
-  }
-
-  .animation-div2 {
-    inline-size: 50px;
-    overflow-wrap: break-word;
-    animation: slide-in2-s linear 0.3s forwards;
-    width: 98%;
-  }
-
-  .animation-div5 {
-    inline-size: 50px;
-    overflow-wrap: break-word;
-    animation: slide-in1-s linear 0.3s forwards;
-    width: 31px;
-  }
-
-  .animation-div6 {
-    inline-size: 50px;
-    overflow-wrap: break-word;
-    animation: slide-in2-s linear 0.3s forwards;
-    width: 98%;
-  }
-
-  .animation-div3 {
-    inline-size: 50px;
-    overflow-wrap: break-word;
-    animation: slide-in1-s linear 0.3s forwards;
-    width: 31px;
-  }
-
-  .animation-div3 > a {
-    width: 271px;
-  }
-
-  .animation-div4 {
-    inline-size: 50px;
-    overflow-wrap: break-word;
-    animation: slide-in2-s linear 0.3s forwards;
-    width: 98%;
-  }
-  .link2 {
-    inline-size: 150px;
-    overflow-wrap: break-word;
-    width: 308px;
-  }
-
-  @keyframes slide-in2-s {
-    0% {
-      left: 0px;
-      opacity: 1;
-    }
-    100% {
-      left: -4%;
-      opacity: 1;
-    }
-  }
-
-  @keyframes slide-in1-s {
-    0% {
-      left: 0px;
-      opacity: 1;
-    }
-    100% {
-      left: 40%;
-      opacity: 1;
-    }
-  } */
-  /* 
-
-  .animation-div2 {
-    animation: slide-in1-s linear 0.3s forwards;
-  }
-
-  .animation-div3 {
-    animation: slide-in2-s linear 0.3s forwards;
-  }
-
-  @keyframes slide-in2-s {
-    0% {
-      right: 0px;
-      opacity: 1;
-    }
-    100% {
-      right: 0%;
-      opacity: 1;
-    }
-  }
-
-  .animation-div4 {
-    animation: slide-in2-s linear 3.3s forwards;
-  }
-
-  .container2 > div {
-    border-radius: 30px;
-    padding: 20px;
-    width: fit-content;
-    background-color: #421bd1;
-  } */
+  
 
   .MySkills {
     width: 64%;
@@ -1072,12 +937,6 @@ div > .iconsn2 {
     left: 0%;
     z-index: 70;
   } */
-  .animation-div1 {
-    height: 7%;
-    background-color: #421bd1;
-  }
-  .animation-div2 {
-    height: 8%;
-    background-color: #421bd1;
-  }
+
+
 }

@@ -11,6 +11,8 @@ import MongoDBPhoto from "./svg/MongoDB.png";
 import nextPhoto from "./svg/next-js.png";
 import graphqlPhoto from "./svg/graphql_logo_white.png";
 import typescriptPhoto from "./svg/typescript_logo_icon_144782.png";
+import AOS from 'aos';
+import 'aos/dist/aos.css';
 
 
 
@@ -51,6 +53,12 @@ function App() {
   // const [isVisible1, setIsVisible1] = useState(true);
   const { ref: xxx, inView: isVisible1 } = useInView();
 
+  //nitialize AOS in a single component:
+
+  useEffect(() => {
+    AOS.init();
+  }, []);
+
   // useEffect(() => {
   //   const ControlAnimationDiv = () => {
   //     const scrollPosition2 = window.scrollY;
@@ -80,6 +88,8 @@ function App() {
     }, 1000); // Toggle the animation state every seconds
     return () => clearInterval(interval); // Clean up interval on component unmount
 }, []);
+
+
 
   useEffect(() => {
     lottie.loadAnimation({
@@ -310,7 +320,7 @@ function App() {
             </div>
             <p>
               "I am a MERN Full stack developer familiar with react MongoDB
-              Nodejs Next.js GraphQL RestAPI Tailwind & Chakra UI  ..my Valuable skill is Searching this mean i can search
+              Nodejs Next.js GraphQL RestAPI Tailwind & Chakra UI  ..my Valuable skill is Searching this mean i can search for
               and learn any new technology.."
             </p>
           </div>
@@ -412,51 +422,234 @@ function App() {
           </div>
           
           {isVisible1 && (
-            <div
-              ref={animationRef1}
-              className={`animation-div1 ${isVisible1 ? "visible" : ""}`}
+            <div 
+              data-aos="fade-right"
+              // ref={animationRef1}
+              // className={`animation-div1 ${isVisible1 ? "visible" : ""}`}
+               className="animation-div1 m-auto rounded-md  "
+               
+            
             >
+              <div className="m-auto flex flex-col justify-start items-center " style={{background: "#421bd1"}}>
+              <div >MERN Ecommerce App</div>
+              <div >for Demo 
+              <div className=" sm:block md:hidden">
+                {/* <p> */}
+               <a
+                href="https://client-ecommerce-1.vercel.app"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="bg-yellow-400 ml-2 border-solid border-black border-2 rounded-xl pl-0.5 pr-1 sm:block sm:w-full"
+               
+             
+              >Click here</a> 
+              {/* </p> */}
+              </div>
               <a
-                href="https://mern-ecommerce-project-dy8y.onrender.com/products"
+                href="https://client-ecommerce-1.vercel.app"
+                 target="_blank"
+                 rel="noopener noreferrer"
+                  className="hidden md:inline bg-yellow-400 ml-2 border-solid border-black border-1 rounded-xl pl-0.5 pr-1"
+                >
+                  Click here
+                 </a>
+              </div>
+              
+              <div className="sm:ml-0">for githup repo
+              {/* <p style={{ marginLeft: "0px", paddingLeft: "0px", float: "left" }}> */}
+              <div className=" sm:block md:hidden">
+                {/* <p> */}
+               <a
+                href="https://github.com/Abdelmeguid/client-ecommerce-1"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="bg-yellow-400 ml-2 border-solid border-black border-2 rounded-xl pl-0.5 pr-1 sm:block sm:w-full"
+               
+             
+              >Click here</a> 
+              {/* </p> */}
+              </div>
+              <a
+                href="https://github.com/Abdelmeguid/client-ecommerce-1"
+                 target="_blank"
+                 rel="noopener noreferrer"
+                  className="hidden md:inline bg-yellow-400 ml-2 border-solid border-black border-1 rounded-xl pl-0.5 pr-1"
+                >
+                  Click here
+                 </a>
+              {/* </p> */}
+              </div>
+              </div>
+              {/* <a
+                href="https://client-ecommerce-1.vercel.app"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="link2"
              
               >
-              MERN_Ecommerce Project
-              </a>
+              MERN Ecommerce Project
+              for demo press
+              for git Repository press 
+              </a> */}
             </div>
           )}
 
 {isVisible1 && (
             <div
-              ref={animationRef2}
-              className={`animation-div2 ${isVisible1 ? "visible" : ""}`}
+
+            data-aos="fade-left"
+            className="animation-div2 m-auto rounded-md"
+            // ref={animationRef1}
+            // className={`animation-div1 ${isVisible1 ? "visible" : ""}`}
+             
+
+              // ref={animationRef2}
+              // className={`animation-div2 ${isVisible1 ? "visible" : ""}`}
             >
-              <a
-                href="https://abdelmeguid.github.io/restaurant_react_app/"
+              {/* we remove below project and add another  */}
+                  {/* <a
+                href="https://meetup-next-app-nu.vercel.app/"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="link2"
               >
-                Restaurant React_App
-              </a>
+                Meetup Next.js App
+              </a> */}
+
+              {/* we add this project related to ticket system  */}
+
+              {/* <a
+                href="https://ticket-app-next-js.vercel.app/"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="link2"
+              >
+                ticket sysetem by next-js
+              </a> */}
+
+<div className="m-auto flex flex-col justify-start items-center " style={{background: "#421bd1"}}>
+              <div >Restaurant_react app</div>
+              <div >for Demo 
+              <div className=" sm:block md:hidden">
+                {/* <p> */}
+               <a
+                href="https://abdelmeguid.github.io/restaurant_react_app/"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="bg-yellow-400 ml-2 border-solid border-black border-2 rounded-xl pl-0.5 pr-1 sm:block sm:w-full"
+               
+             
+              >Click here</a> 
+              {/* </p> */}
+              </div>
+              <a
+                href="https://abdelmeguid.github.io/restaurant_react_app/"
+                 target="_blank"
+                 rel="noopener noreferrer"
+                  className="hidden md:inline bg-yellow-400 ml-2 border-solid border-black border-1 rounded-xl pl-0.5 pr-1"
+                >
+                  Click here
+                 </a>
+              </div>
+              
+              <div className="sm:ml-0">for githup repo
+              {/* <p style={{ marginLeft: "0px", paddingLeft: "0px", float: "left" }}> */}
+              <div className=" sm:block md:hidden">
+                {/* <p> */}
+               <a
+                href="https://github.com/Abdelmeguid/restaurant_react_app"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="bg-yellow-400 ml-2 border-solid border-black border-2 rounded-xl pl-0.5 pr-1 sm:block sm:w-full"
+               
+             
+              >Click here</a> 
+              {/* </p> */}
+              </div>
+              <a
+                href="https://github.com/Abdelmeguid/restaurant_react_app"
+                 target="_blank"
+                 rel="noopener noreferrer"
+                  className="hidden md:inline bg-yellow-400 ml-2 border-solid border-black border-1 rounded-xl pl-0.5 pr-1"
+                >
+                  Click here
+                 </a>
+              {/* </p> */}
+              </div>
+              </div>
+    
             </div>
           )}
 
 {isVisible1 && (
             <div
-              ref={animationRef3}
-              className={`animation-div3 ${isVisible1 ? "visible" : ""}`}
+            data-aos="fade-right"
+            className="animation-div3  m-auto rounded-md"
+
+            // ref={animationRef1}
+            // className={`animation-div1 ${isVisible1 ? "visible" : ""}`}
+             
+              // ref={animationRef3}
+              // className={`animation-div3 ${isVisible1 ? "visible" : ""}`}
             >
-              <a
+              {/* <a
                 href="https://abdelmeguid.github.io/get_all_data_of_your_location/"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="link2"
               >
                 get data by location App
-              </a>
+              </a> */}
+               <div className="m-auto flex flex-col justify-start items-center " style={{background: "#421bd1"}}>
+              <div >get all data by the location</div>
+              <div >for Demo 
+              <div className=" sm:block md:hidden">
+                {/* <p> */}
+               <a
+                 href="https://abdelmeguid.github.io/get_all_data_of_your_location/"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="bg-yellow-400 ml-2 border-solid border-black border-2 rounded-xl pl-0.5 pr-1 sm:block sm:w-full"
+               
+             
+              >Click here</a> 
+              {/* </p> */}
+              </div>
+              <a
+                 href="https://abdelmeguid.github.io/get_all_data_of_your_location/"
+                 target="_blank"
+                 rel="noopener noreferrer"
+                  className="hidden md:inline bg-yellow-400 ml-2 border-solid border-black border-1 rounded-xl pl-0.5 pr-1"
+                >
+                  Click here
+                 </a>
+              </div>
+              
+              <div className="sm:ml-0">for githup repo
+              {/* <p style={{ marginLeft: "0px", paddingLeft: "0px", float: "left" }}> */}
+              <div className=" sm:block md:hidden">
+                {/* <p> */}
+               <a
+                href="https://github.com/Abdelmeguid/get_all_data_of_your_location"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="bg-yellow-400 ml-2 border-solid border-black border-2 rounded-xl pl-0.5 pr-1 sm:block sm:w-full"
+               
+             
+              >Click here</a> 
+              {/* </p> */}
+              </div>
+              <a
+                href="https://github.com/Abdelmeguid/get_all_data_of_your_location"
+                 target="_blank"
+                 rel="noopener noreferrer"
+                  className="hidden md:inline bg-yellow-400 ml-2 border-solid border-black border-1 rounded-xl pl-0.5 pr-1"
+                >
+                  Click here
+                 </a>
+              {/* </p> */}
+              </div>
+              </div>
             </div>
           )}
           {/* {isVisible1 && (
@@ -476,42 +669,153 @@ function App() {
           )} */}
           {isVisible1 && (
             <div
-              ref={animationRef4}
-              className={`animation-div4 ${isVisible1 ? "visible" : ""}`}
+             data-aos="fade-left"
+            className="animation-div4 m-auto rounded-md"
+            
+              // ref={animationRef4}
+              // className={`animation-div4 ${isVisible1 ? "visible" : ""}`}
             >
-              <a
-                href="https://meetup-next-app-nu.vercel.app/"
+       
+   
+
+              {/* <a
+                href="https://abdelmeguid.github.io/restaurant_react_app/"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="link2"
               >
-                Meetup Next.js App
-              </a>
+                Restaurant React_App
+              </a> */}
+               <div className="m-auto flex flex-col justify-start items-center " style={{background: "#421bd1"}}>
+              <div >ticket-app-next-js App</div>
+              <div >for Demo 
+              <div className=" sm:block md:hidden">
+                {/* <p> */}
+               <a
+                href="https://ticket-app-next-js.vercel.app/"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="bg-yellow-400 ml-2 border-solid border-black border-2 rounded-xl pl-0.5 pr-1 sm:block sm:w-full"
+               
+             
+              >Click here</a> 
+              {/* </p> */}
+              </div>
+              <a
+                href="https://ticket-app-next-js.vercel.app/"
+                 target="_blank"
+                 rel="noopener noreferrer"
+                  className="hidden md:inline bg-yellow-400 ml-2 border-solid border-black border-1 rounded-xl pl-0.5 pr-1"
+                >
+                  Click here
+                 </a>
+              </div>
+              
+              <div className="sm:ml-0">for githup repo
+              {/* <p style={{ marginLeft: "0px", paddingLeft: "0px", float: "left" }}> */}
+              <div className=" sm:block md:hidden">
+                {/* <p> */}
+               <a
+                href="https://github.com/Abdelmeguid/TicketApp-next.js"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="bg-yellow-400 ml-2 border-solid border-black border-2 rounded-xl pl-0.5 pr-1 sm:block sm:w-full"
+               
+             
+              >Click here</a> 
+              {/* </p> */}
+              </div>
+              <a
+                href="https://github.com/Abdelmeguid/TicketApp-next.js"
+                 target="_blank"
+                 rel="noopener noreferrer"
+                  className="hidden md:inline bg-yellow-400 ml-2 border-solid border-black border-1 rounded-xl pl-0.5 pr-1"
+                >
+                  Click here
+                 </a>
+              {/* </p> */}
+              </div>
+              </div>
             </div>
           )}
 
 
 {isVisible1 && (
             <div
-              ref={animationRef5}
-              className={`animation-div5 ${isVisible1 ? "visible" : ""}`}
+             data-aos="fade-right"
+            className="animation-div5 m-auto rounded-md"
+              // ref={animationRef5}
+              // className={`animation-div5 ${isVisible1 ? "visible" : ""}`}
             >
-              <a
+              {/* <a
                 href="https://nextjs-bus-complaint-system.vercel.app/"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="link2"
               >
-                nextjs-V14-bus-complaint-Form
-              </a>
+                nextjs-bus-complaint-Form
+              </a> */}
+               <div className="m-auto flex flex-col justify-start items-center " style={{background: "#421bd1"}}>
+               <div >Nextjs-bus-complaint-system</div>
+              <div >for Demo 
+              <div className=" sm:block md:hidden">
+                {/* <p> */}
+               <a
+               href="https://nextjs-bus-complaint-system.vercel.app/"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="bg-yellow-400 ml-2 border-solid border-black border-2 rounded-xl pl-0.5 pr-1 sm:block sm:w-full"
+               
+             
+              >Click here</a> 
+              {/* </p> */}
+              </div>
+              <a
+                href="https://nextjs-bus-complaint-system.vercel.app/"
+                 target="_blank"
+                 rel="noopener noreferrer"
+                  className="hidden md:inline bg-yellow-400 ml-2 border-solid border-black border-1 rounded-xl pl-0.5 pr-1"
+                >
+                  Click here
+                 </a>
+              </div>
+              
+              <div className="sm:ml-0">for githup repo
+              {/* <p style={{ marginLeft: "0px", paddingLeft: "0px", float: "left" }}> */}
+              <div className=" sm:block md:hidden">
+                {/* <p> */}
+               <a
+                href="https://github.com/Abdelmeguid/nextjs-bus_complaint_system"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="bg-yellow-400 ml-2 border-solid border-black border-2 rounded-xl pl-0.5 pr-1 sm:block sm:w-full"
+               
+             
+              >Click here</a> 
+              {/* </p> */}
+              </div>
+              <a
+                href="https://github.com/Abdelmeguid/nextjs-bus_complaint_system"
+                 target="_blank"
+                 rel="noopener noreferrer"
+                  className="hidden md:inline bg-yellow-400 ml-2 border-solid border-black border-1 rounded-xl pl-0.5 pr-1"
+                >
+                  Click here
+                 </a>
+              {/* </p> */}
+              </div>
+              </div>
             </div>
           )}
+
           
           
           {isVisible1 && (
             <div
-              ref={animationRef6}
-              className={`animation-div6 ${isVisible1 ? "visible" : ""}`}
+             data-aos="fade-left"
+            className="animation-div6 m-auto rounded-md"
+              // ref={animationRef6}
+              // className={`animation-div6 ${isVisible1 ? "visible" : ""}`}
             >
                {/* <a
                 href="https://weather-api-vercel-app.vercel.app/"
@@ -522,33 +826,139 @@ function App() {
                 weather_App created on vercel 
               </a> */}
 
-               <a
+               {/* <a
                 href="https://neu-gilt.vercel.app/"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="link2"
               >
                 survey system by react and Next.js 
-              </a>
+              </a> */}
+               <div className="m-auto flex flex-col justify-start items-center " style={{background: "#421bd1"}}>
+              <div >Weather by postcode App</div>
+              <div >for Demo 
+              <div className=" sm:block md:hidden">
+                {/* <p> */}
+               <a
+              href="https://weather-api-vercel-app.vercel.app/"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="bg-yellow-400 ml-2 border-solid border-black border-2 rounded-xl pl-0.5 pr-1 sm:block sm:w-full"
+               
+             
+              >Click here</a> 
+              {/* </p> */}
+              </div>
+              <a
+                href="https://weather-api-vercel-app.vercel.app/"
+                 target="_blank"
+                 rel="noopener noreferrer"
+                  className="hidden md:inline bg-yellow-400 ml-2 border-solid border-black border-1 rounded-xl pl-0.5 pr-1"
+                >
+                  Click here
+                 </a>
+              </div>
+              
+              <div className="sm:ml-0">for githup repo
+              {/* <p style={{ marginLeft: "0px", paddingLeft: "0px", float: "left" }}> */}
+              <div className=" sm:block md:hidden">
+                {/* <p> */}
+               <a
+                href="https://client-ecommerce-1.vercel.app"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="bg-yellow-400 ml-2 border-solid border-black border-2 rounded-xl pl-0.5 pr-1 sm:block sm:w-full"
+               
+             
+              >Click here</a> 
+              {/* </p> */}
+              </div>
+              <a
+                href="https://client-ecommerce-1.vercel.app"
+                 target="_blank"
+                 rel="noopener noreferrer"
+                  className="hidden md:inline bg-yellow-400 ml-2 border-solid border-black border-1 rounded-xl pl-0.5 pr-1"
+                >
+                  Click here
+                 </a>
+              {/* </p> */}
+              </div>
+              </div>
             </div>
           )}
 
 
 {isVisible1 && (
             <div
-              ref={animationRef7}
-              className={`animation-div7 ${isVisible1 ? "visible" : ""}`}
+             data-aos="fade-right"
+            className="animation-div7 m-auto rounded-md"
+              // ref={animationRef7}
+              // className={`animation-div7 ${isVisible1 ? "visible" : ""}`}
             >
-              <a
+              {/* <a
                 href="https://abdelmeguid.github.io/landing-page-primary_project/"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="link2"
               >
                 landing-page-primary_project
-              </a>
+              </a> */}
+               <div className="m-auto flex flex-col justify-start items-center " style={{background: "#421bd1"}}>
+              <div >Survey student App</div>
+              
+              <div >for Demo 
+              <div className=" sm:block md:hidden">
+                {/* <p> */}
+               <a
+               href="https://neu-gilt.vercel.app/"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="bg-yellow-400 ml-2 border-solid border-black border-2 rounded-xl pl-0.5 pr-1 sm:block sm:w-full"
+               
+             
+              >Click here</a> 
+              {/* </p> */}
+              </div>
+              <a
+                href="https://neu-gilt.vercel.app/"
+                 target="_blank"
+                 rel="noopener noreferrer"
+                  className="hidden md:inline bg-yellow-400 ml-2 border-solid border-black border-1 rounded-xl pl-0.5 pr-1"
+                >
+                  Click here
+                 </a>
+              </div>
+              
+              <div className="sm:ml-0">for githup repo
+              {/* <p style={{ marginLeft: "0px", paddingLeft: "0px", float: "left" }}> */}
+              <div className=" sm:block md:hidden">
+                {/* <p> */}
+               <a
+                href="https://client-ecommerce-1.vercel.app"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="bg-yellow-400 ml-2 border-solid border-black border-2 rounded-xl pl-0.5 pr-1 sm:block sm:w-full"
+               
+             
+              >Click here</a> 
+              {/* </p> */}
+              </div>
+              <a
+                href="https://client-ecommerce-1.vercel.app"
+                 target="_blank"
+                 rel="noopener noreferrer"
+                  className="hidden md:inline bg-yellow-400 ml-2 border-solid border-black border-1 rounded-xl pl-0.5 pr-1"
+                >
+                  Click here
+                 </a>
+              {/* </p> */}
+              </div>
+              </div>
             </div>
           )}
+
+
+        
         </div>
         <svg
           className="svgn4"
