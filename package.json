@@ -1,5 +1,5 @@
 {
-  "homepage": "https://Abdelmeguid.github.io/Portfolio_jun_2023",
+  "homepage": "https://portfolio-2024-five.vercel.app/",
   "name": "portfolio2",
   "version": "0.1.0",
   "private": true,
@@ -25,7 +25,6 @@
     "react-scripts": "^5.0.1",
     "react-social-icons": "^5.15.0",
     "tailwind": "^4.0.0",
-    "vercel": "^37.5.4",
     "web-vitals": "^2.1.4"
   },
   "scripts": {
