@@ -1,5 +1,6 @@
 {
   "homepage": "https://portfolio-2024-five.vercel.app/",
+   "comment": "This line ('homepage': 'https://Abdelmeguid.github.io/Portfolio_jun_2023') is used for deployment by GitHub Pages.",
   "name": "portfolio2",
   "version": "0.1.0",
   "private": true,
