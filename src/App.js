@@ -329,7 +329,7 @@ function App() {
               <Cart />
             </div>
             <p>
-              "I am a Fighter MERN Full stack developer familiar with React MongoDB
+              "I am a MERN Full stack developer familiar with React MongoDB
               Nodejs Next.js RestAPI Tailwind ..my Valuable skill is Searching,This mean I can search to solve any technical Problem 
               and learn any new Technology.."
             </p>
