@@ -40,13 +40,13 @@ function App() {
   const container2 = useRef(null);
   const container3 = useRef(null);
   //start animation divs
-  // const animationRef1 = useRef(null);
-  // const animationRef2 = useRef(null);
-  // const animationRef3 = useRef(null);
-  // const animationRef4 = useRef(null);
-  // const animationRef5 = useRef(null);
-  // const animationRef6 = useRef(null);
-  // const animationRef7 = useRef(null);
+  const animationRef1 = useRef(null);
+  const animationRef2 = useRef(null);
+  const animationRef3 = useRef(null);
+  const animationRef4 = useRef(null);
+  const animationRef5 = useRef(null);
+  const animationRef6 = useRef(null);
+  const animationRef7 = useRef(null);
 
   const containertech = useRef(null);
   const containertech2 = useRef(null);
@@ -279,31 +279,21 @@ function App() {
 
           <div className="icons">
             <a
-              href="https://github.com/Abdelmeguid"
-             target="_blank"
-              rel="noopener noreferrer"
+              href="https://www.hotmail.com"
+              target="_ccssccecc"
+              rel="cccsceccsccc"
             >
-              <SocialIcon url="https://github.com/Abdelmeguid" 
-              target="_blank" 
-               rel="noopener noreferrer"
-              />
+              <SocialIcon url="https://github.com/Abdelmeguid" />
             </a>
             <a
               href="https://www.hotmail.com"
               target="ccsccecc"
               rel="ccceccsccc"
             >
-              <SocialIcon 
-              url="https://www.linkedin.com/in/ahmed-abdelmegid-b688a91b3/"
-              target="_blank" 
-               rel="noopener noreferrer"
-               />
+              <SocialIcon url="https://www.linkedin.com/in/ahmed-abdelmegid-b688a91b3/" />
             </a>
             <a href="https://twitter.com/" target="_ccsccecc" rel="cccesccccc">
-              <SocialIcon url="https://www.upwork.com/freelancers/~012bd91af747be023f?qpn-profile-completeness=certificate" 
-               target="_blank" 
-               rel="noopener noreferrer"
-               />
+              <SocialIcon url="https://www.upwork.com/freelancers/~012bd91af747be023f?qpn-profile-completeness=certificate" />
             </a>
             {/* <a href="https://www.hotmail.com" target="_cccccc" rel="cccccccc">
               <SocialIcon url="https://twitter.com/jaketrent" />
@@ -329,9 +319,9 @@ function App() {
               <Cart />
             </div>
             <p>
-              "I am a Fighter MERN Full stack developer familiar with React MongoDB
-              Nodejs Next.js RestAPI Tailwind ..my Valuable skill is Searching,This mean I can search to solve any technical Problem 
-              and learn any new Technology.."
+              "I am a MERN Full stack developer familiar with react MongoDB
+              Nodejs Next.js GraphQL RestAPI Tailwind & Chakra UI  ..my Valuable skill is Searching this mean i can search for
+              and learn any new technology.."
             </p>
           </div>
         </div>
@@ -441,12 +431,12 @@ function App() {
             
             >
               <div className="m-auto flex flex-col justify-start items-center " style={{background: "#421bd1"}}>
-              <div >ticket-app-next-js App</div>
+              <div >MERN Ecommerce App</div>
               <div >for Demo 
               <div className=" sm:block md:hidden">
                 {/* <p> */}
                <a
-                href="https://ticket-app-next-js.vercel.app/"
+                href="https://client-ecommerce-1.vercel.app"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="bg-yellow-400 ml-2 border-solid border-black border-2 rounded-xl pl-0.5 pr-1 sm:block sm:w-full"
@@ -456,7 +446,7 @@ function App() {
               {/* </p> */}
               </div>
               <a
-                href="https://ticket-app-next-js.vercel.app/"
+                href="https://client-ecommerce-1.vercel.app"
                  target="_blank"
                  rel="noopener noreferrer"
                   className="hidden md:inline bg-yellow-400 ml-2 border-solid border-black border-1 rounded-xl pl-0.5 pr-1"
@@ -470,7 +460,7 @@ function App() {
               <div className=" sm:block md:hidden">
                 {/* <p> */}
                <a
-                href="https://github.com/Abdelmeguid/TicketApp-next.js"
+                href="https://github.com/Abdelmeguid/client-ecommerce-1"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="bg-yellow-400 ml-2 border-solid border-black border-2 rounded-xl pl-0.5 pr-1 sm:block sm:w-full"
@@ -480,7 +470,7 @@ function App() {
               {/* </p> */}
               </div>
               <a
-                href="https://github.com/Abdelmeguid/TicketApp-next.js"
+                href="https://github.com/Abdelmeguid/client-ecommerce-1"
                  target="_blank"
                  rel="noopener noreferrer"
                   className="hidden md:inline bg-yellow-400 ml-2 border-solid border-black border-1 rounded-xl pl-0.5 pr-1"
@@ -490,9 +480,19 @@ function App() {
               {/* </p> */}
               </div>
               </div>
+              {/* <a
+                href="https://client-ecommerce-1.vercel.app"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="link2"
+             
+              >
+              MERN Ecommerce Project
+              for demo press
+              for git Repository press 
+              </a> */}
             </div>
           )}
-
 
 {isVisible1 && (
             <div
@@ -601,12 +601,12 @@ function App() {
                 get data by location App
               </a> */}
                <div className="m-auto flex flex-col justify-start items-center " style={{background: "#421bd1"}}>
-               <div >MERN Ecommerce App</div>
+              <div >get all data by the location</div>
               <div >for Demo 
               <div className=" sm:block md:hidden">
                 {/* <p> */}
                <a
-                href="https://client-ecommerce-1.vercel.app"
+                 href="https://abdelmeguid.github.io/get_all_data_of_your_location/"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="bg-yellow-400 ml-2 border-solid border-black border-2 rounded-xl pl-0.5 pr-1 sm:block sm:w-full"
@@ -616,7 +616,7 @@ function App() {
               {/* </p> */}
               </div>
               <a
-                href="https://client-ecommerce-1.vercel.app"
+                 href="https://abdelmeguid.github.io/get_all_data_of_your_location/"
                  target="_blank"
                  rel="noopener noreferrer"
                   className="hidden md:inline bg-yellow-400 ml-2 border-solid border-black border-1 rounded-xl pl-0.5 pr-1"
@@ -630,7 +630,7 @@ function App() {
               <div className=" sm:block md:hidden">
                 {/* <p> */}
                <a
-                href="https://github.com/Abdelmeguid/client-ecommerce-1"
+                href="https://github.com/Abdelmeguid/get_all_data_of_your_location"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="bg-yellow-400 ml-2 border-solid border-black border-2 rounded-xl pl-0.5 pr-1 sm:block sm:w-full"
@@ -640,7 +640,7 @@ function App() {
               {/* </p> */}
               </div>
               <a
-                href="https://github.com/Abdelmeguid/client-ecommerce-1"
+                href="https://github.com/Abdelmeguid/get_all_data_of_your_location"
                  target="_blank"
                  rel="noopener noreferrer"
                   className="hidden md:inline bg-yellow-400 ml-2 border-solid border-black border-1 rounded-xl pl-0.5 pr-1"
@@ -650,19 +650,23 @@ function App() {
               {/* </p> */}
               </div>
               </div>
-              {/* <a
-                href="https://client-ecommerce-1.vercel.app"
+            </div>
+          )}
+          {/* {isVisible1 && (
+            <div
+              ref={animationRef2}
+              className={`animation-div2 ${isVisible1 ? "visible" : ""}`}
+            >
+              <a
+                href="https://design-reports-of-all-employees-rest-api-frcb.onrender.com"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="link2"
-             
               >
-              MERN Ecommerce Project
-              for demo press
-              for git Repository press 
-              </a> */}
+                Design of Products RestAPI APP
+              </a>
             </div>
-          )}
+          )} */}
           {isVisible1 && (
             <div
              data-aos="fade-left"
@@ -683,13 +687,12 @@ function App() {
                 Restaurant React_App
               </a> */}
                <div className="m-auto flex flex-col justify-start items-center " style={{background: "#421bd1"}}>
-               <div >Survey student App</div>
-              
+              <div >ticket-app-next-js App</div>
               <div >for Demo 
               <div className=" sm:block md:hidden">
                 {/* <p> */}
                <a
-               href="https://neu-gilt.vercel.app/"
+                href="https://ticket-app-next-js.vercel.app/"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="bg-yellow-400 ml-2 border-solid border-black border-2 rounded-xl pl-0.5 pr-1 sm:block sm:w-full"
@@ -699,7 +702,7 @@ function App() {
               {/* </p> */}
               </div>
               <a
-                href="https://neu-gilt.vercel.app/"
+                href="https://ticket-app-next-js.vercel.app/"
                  target="_blank"
                  rel="noopener noreferrer"
                   className="hidden md:inline bg-yellow-400 ml-2 border-solid border-black border-1 rounded-xl pl-0.5 pr-1"
@@ -713,7 +716,7 @@ function App() {
               <div className=" sm:block md:hidden">
                 {/* <p> */}
                <a
-                href="https://client-ecommerce-1.vercel.app"
+                href="https://github.com/Abdelmeguid/TicketApp-next.js"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="bg-yellow-400 ml-2 border-solid border-black border-2 rounded-xl pl-0.5 pr-1 sm:block sm:w-full"
@@ -723,7 +726,7 @@ function App() {
               {/* </p> */}
               </div>
               <a
-                href="https://client-ecommerce-1.vercel.app"
+                href="https://github.com/Abdelmeguid/TicketApp-next.js"
                  target="_blank"
                  rel="noopener noreferrer"
                   className="hidden md:inline bg-yellow-400 ml-2 border-solid border-black border-1 rounded-xl pl-0.5 pr-1"
@@ -832,12 +835,12 @@ function App() {
                 survey system by react and Next.js 
               </a> */}
                <div className="m-auto flex flex-col justify-start items-center " style={{background: "#421bd1"}}>
-               <div >get all data by the location</div>
+              <div >Weather by postcode App</div>
               <div >for Demo 
               <div className=" sm:block md:hidden">
                 {/* <p> */}
                <a
-                 href="https://abdelmeguid.github.io/get_all_data_of_your_location/"
+              href="https://weather-api-vercel-app.vercel.app/"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="bg-yellow-400 ml-2 border-solid border-black border-2 rounded-xl pl-0.5 pr-1 sm:block sm:w-full"
@@ -847,7 +850,7 @@ function App() {
               {/* </p> */}
               </div>
               <a
-                 href="https://abdelmeguid.github.io/get_all_data_of_your_location/"
+                href="https://weather-api-vercel-app.vercel.app/"
                  target="_blank"
                  rel="noopener noreferrer"
                   className="hidden md:inline bg-yellow-400 ml-2 border-solid border-black border-1 rounded-xl pl-0.5 pr-1"
@@ -861,7 +864,7 @@ function App() {
               <div className=" sm:block md:hidden">
                 {/* <p> */}
                <a
-                href="https://github.com/Abdelmeguid/get_all_data_of_your_location"
+                href="https://client-ecommerce-1.vercel.app"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="bg-yellow-400 ml-2 border-solid border-black border-2 rounded-xl pl-0.5 pr-1 sm:block sm:w-full"
@@ -871,7 +874,7 @@ function App() {
               {/* </p> */}
               </div>
               <a
-                href="https://github.com/Abdelmeguid/get_all_data_of_your_location"
+                href="https://client-ecommerce-1.vercel.app"
                  target="_blank"
                  rel="noopener noreferrer"
                   className="hidden md:inline bg-yellow-400 ml-2 border-solid border-black border-1 rounded-xl pl-0.5 pr-1"
@@ -901,12 +904,13 @@ function App() {
                 landing-page-primary_project
               </a> */}
                <div className="m-auto flex flex-col justify-start items-center " style={{background: "#421bd1"}}>
-               <div >Weather by postcode App</div>
+              <div >Survey student App</div>
+              
               <div >for Demo 
               <div className=" sm:block md:hidden">
                 {/* <p> */}
                <a
-              href="https://weather-api-vercel-app.vercel.app/"
+               href="https://neu-gilt.vercel.app/"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="bg-yellow-400 ml-2 border-solid border-black border-2 rounded-xl pl-0.5 pr-1 sm:block sm:w-full"
@@ -916,7 +920,7 @@ function App() {
               {/* </p> */}
               </div>
               <a
-                href="https://weather-api-vercel-app.vercel.app/"
+                href="https://neu-gilt.vercel.app/"
                  target="_blank"
                  rel="noopener noreferrer"
                   className="hidden md:inline bg-yellow-400 ml-2 border-solid border-black border-1 rounded-xl pl-0.5 pr-1"
