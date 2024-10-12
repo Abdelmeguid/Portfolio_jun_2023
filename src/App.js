@@ -335,7 +335,7 @@ function App() {
             </p>
           </div>
         </div>
-        {/*<div class="wave-container">
+        {/* <div class="wave-container">
          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320">
             <path
               fill="#ffd700"
@@ -446,7 +446,7 @@ function App() {
               <div className=" sm:block md:hidden">
                 {/* <p> */}
                <a
-                href="https://ticket-app-next-js.vercel.app/"
+                href=""
                 target="_blank"
                 rel="noopener noreferrer"
                 className="bg-yellow-400 ml-2 border-solid border-black border-2 rounded-xl pl-0.5 pr-1 sm:block sm:w-full"
@@ -456,7 +456,7 @@ function App() {
               {/* </p> */}
               </div>
               <a
-                href="https://ticket-app-next-js.vercel.app/"
+                href="https://ticketappnextjsprisma-mongodb.vercel.app/"
                  target="_blank"
                  rel="noopener noreferrer"
                   className="hidden md:inline bg-yellow-400 ml-2 border-solid border-black border-1 rounded-xl pl-0.5 pr-1"
@@ -470,7 +470,7 @@ function App() {
               <div className=" sm:block md:hidden">
                 {/* <p> */}
                <a
-                href="https://github.com/Abdelmeguid/TicketApp-next.js"
+                href="https://github.com/Abdelmeguid/ticketApp-Next.js-prisma-MongoDB"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="bg-yellow-400 ml-2 border-solid border-black border-2 rounded-xl pl-0.5 pr-1 sm:block sm:w-full"
@@ -480,7 +480,7 @@ function App() {
               {/* </p> */}
               </div>
               <a
-                href="https://github.com/Abdelmeguid/TicketApp-next.js"
+                href="https://github.com/Abdelmeguid/ticketApp-Next.js-prisma-MongoDB"
                  target="_blank"
                  rel="noopener noreferrer"
                   className="hidden md:inline bg-yellow-400 ml-2 border-solid border-black border-1 rounded-xl pl-0.5 pr-1"
