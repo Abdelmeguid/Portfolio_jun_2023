@@ -683,7 +683,7 @@ function App() {
                 Restaurant React_App
               </a> */}
                <div className="m-auto flex flex-col justify-start items-center " style={{background: "#421bd1"}}>
-               <div >Survey student Next App</div>
+               <div >Survey student Next.js App</div>
               
               <div >for Demo 
               <div className=" sm:block md:hidden">
