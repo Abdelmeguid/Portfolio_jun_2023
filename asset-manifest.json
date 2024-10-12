@@ -1,23 +1,23 @@
 {
   "files": {
-    "main.css": "/Portfolio_jun_2023/static/css/main.44f235e3.css",
-    "main.js": "/Portfolio_jun_2023/static/js/main.a00177ef.js",
-    "static/js/787.1297335f.chunk.js": "/Portfolio_jun_2023/static/js/787.1297335f.chunk.js",
-    "static/media/MongoDB.png": "/Portfolio_jun_2023/static/media/MongoDB.41e505b098e3087319b8.png",
-    "static/media/ReactJS-removebg-preview.png": "/Portfolio_jun_2023/static/media/ReactJS-removebg-preview.c81c1bb052e213f2ca1e.png",
-    "static/media/graphql_logo_white.png": "/Portfolio_jun_2023/static/media/graphql_logo_white.1d75a7afa85083205b60.png",
-    "static/media/Node.js_logo-removebg-preview.png": "/Portfolio_jun_2023/static/media/Node.js_logo-removebg-preview.77e115112b04e5a842bd.png",
-    "static/media/1686391647921.png": "/Portfolio_jun_2023/static/media/1686391647921.fe1eec364f69de4ba3f1.png",
-    "static/media/next-js.png": "/Portfolio_jun_2023/static/media/next-js.df52a34d9f2473f96c50.png",
-    "static/media/myIMG.jpg": "/Portfolio_jun_2023/static/media/myIMG.6d68aedc9a53e285605a.jpg",
-    "static/media/tailwind-css-1.svg": "/Portfolio_jun_2023/static/media/tailwind-css-1.160d3de3a73a551fed84370fcf32a83f.svg",
-    "index.html": "/Portfolio_jun_2023/index.html",
-    "main.44f235e3.css.map": "/Portfolio_jun_2023/static/css/main.44f235e3.css.map",
-    "main.a00177ef.js.map": "/Portfolio_jun_2023/static/js/main.a00177ef.js.map",
-    "787.1297335f.chunk.js.map": "/Portfolio_jun_2023/static/js/787.1297335f.chunk.js.map"
+    "main.css": "/static/css/main.0d7f9b18.css",
+    "main.js": "/static/js/main.81f9c570.js",
+    "static/js/787.4450c8af.chunk.js": "/static/js/787.4450c8af.chunk.js",
+    "static/media/MongoDB.png": "/static/media/MongoDB.41e505b098e3087319b8.png",
+    "static/media/ReactJS-removebg-preview.png": "/static/media/ReactJS-removebg-preview.c81c1bb052e213f2ca1e.png",
+    "static/media/graphql_logo_white.png": "/static/media/graphql_logo_white.1d75a7afa85083205b60.png",
+    "static/media/Node.js_logo-removebg-preview.png": "/static/media/Node.js_logo-removebg-preview.77e115112b04e5a842bd.png",
+    "static/media/1686391647921.png": "/static/media/1686391647921.fe1eec364f69de4ba3f1.png",
+    "static/media/next-js.png": "/static/media/next-js.df52a34d9f2473f96c50.png",
+    "static/media/myIMG.jpg": "/static/media/myIMG.6d68aedc9a53e285605a.jpg",
+    "static/media/tailwind-css-1.svg": "/static/media/tailwind-css-1.160d3de3a73a551fed84370fcf32a83f.svg",
+    "index.html": "/index.html",
+    "main.0d7f9b18.css.map": "/static/css/main.0d7f9b18.css.map",
+    "main.81f9c570.js.map": "/static/js/main.81f9c570.js.map",
+    "787.4450c8af.chunk.js.map": "/static/js/787.4450c8af.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.44f235e3.css",
-    "static/js/main.a00177ef.js"
+    "static/css/main.0d7f9b18.css",
+    "static/js/main.81f9c570.js"
   ]
 }
